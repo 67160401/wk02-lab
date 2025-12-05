@@ -6,64 +6,82 @@
     <title>My Portfolio</title>
   </head>
   <body>
+    <!-- TODO: สร้าง header -->
+      <!-- TODO: สร้าง main ที่มี -->
+    <!-- 1. About section -->
     <header>
-      <h1>My Portfolio</h1>
+      <h1>PORTFOLIO</h1>
       <nav>
         <ul>
-          <li><a href="#home">หน้าแรก</a></li>
-          <li><a href="#articles">บทความ</a></li>
-          <li><a href="#about">เกี่ยวกับเรา</a></li>
-          <li><a href="#contact">ติดต่อ</a></li>
+          <li><a href="#personal ">Personal Information</a></li>
+          <li><a href="#performance">Performance</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
+    <fieldset>
     <main>
- <section id="about">
- <article>
- <h2>1. About section</h2>
- <picture>
-  <source media="(min-width:650px)" srcset="https://i.insider.com/601448566dfbe10018e00c5d?width=700">
-  <source media="(min-width:465px)" srcset="https://i.insider.com/601448566dfbe10018e00c5d?width=700">
-  <img src="https://i.insider.com/601448566dfbe10018e00c5d?width=700" alt="PictureMe" style="width:270px;">
-</picture>
- <p>
-    ชื่อ: ฐานพัฒน์ พานโคตร
-    <br/>
-    อีเมล: 555@gmail.com   วันเกิด: 21/05/2888
-    <br/>
-    เพศ: อื่น ๆ    ประเทศ: ไทย
- </p>
- <a href="#read-more-html">Read More</a>
- </article
- 
- <article>
- <h2>Mastering CSS Styling</h2>
- <p>
- CSS (Cascading Style Sheets) ใช้สําหรับจัดแต่งเนื้อหาที่สร้างด้วย
- HTML ให้ดูสวยงาม มันช่วยให้เราสามารถกําหนดสีพื้นหลัง เลขอักษร ขนาด
- และตําแหน่งขององค์ประกอบต่างๆ ในหน้าเว็บ
- </p>
- <a href="#read-more-css">Read More</a>
- </article>
- <article>
- <h2>JavaScript Programming Basics</h2>
- <p>
- JavaScript เป็ นภาษาการเขียนโปรแกรมที่ทําให้หน้าเว็บเป็ นแบบ
- interactive มันช่วยให้เราสามารถจัดการกับปฏิสัมพันธ์ของผู้ใช้ เช่น
- การคลิก hover หรือการกรอกแบบฟอร์ม
- </p>
- <a href="#read-more-js">Read More</a>
- </article>
- </section>
- </main>
-    <!-- 1. About section -->
-    <!-- - หัวข้อ -->
-    <!-- - รูปภาพตัวเอง <img> -->
-    <!-- - ข้อมูลประกอบ -->
-    <!-- 2. Portfolio section -->
-    <!-- - List of projects ใช้ <figure> และ <figcaption> -->
-    <!-- 3. Contact section -->
-    <!-- - Contact form -->
-    <!-- TODO: สร้าง footer -->
+      <section id="about">
+        <h2>Personal Information</h2>
+        <img
+          src="https://reg.buu.ac.th/registrar/getstudentimage.asp?id=67160401"
+          alt="my photo"
+          style="width: 20%"
+        />
+        <p>
+          ชื่อ-นามสกุล: นางสาวปภาวรินทร์ ทัศนางกูร <br>
+          วัน/เดือน/ปีเกิด: 21 กันยายน พ.ศ. 2548 <br>
+          อายุ: 20 ปี
+        </p>
+
+        <h2>Performance</h2>
+        <figure>
+          <img
+            src="https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-person-writing-image_2943374.jpg"
+            alt="Project01"
+            style="width: 100%; max-width: 350px"
+          />
+          <figcaption>เขียนหนังสือชื่อเรื่อง "..."</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://phoenixlava.com/upload-img/Blog/facilitator_%E0%B8%82%E0%B8%99%E0%B8%A1.jpg"
+            alt="Project02"
+            style="width: 100%; max-width: 350px"
+          />
+          <figcaption>เข้าร่วมงานสัมมนา</figcaption>
+        </figure>
+      </section>
+
+      <!-- 3. Contact section -->
+      <!-- - Contact form -->
+      <!-- TODO: สร้าง footer -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post"></form>
+        <address>
+          <p>
+            <strong>Email:</strong>
+            <a href="67160401@go.buu.ac.th">67160401@go.buu.ac.th</a>
+          </p>
+          <p><strong>Tel:</strong> 081-361-5646</p>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/67160401/wk02-lab.git" target="_blank"
+              >https://github.com/67160401/wk02-lab.git</a>
+          </p>
+          <p><strong>Address:</strong> เลขที่ 169 ถนนลงหาดบางแสน ตำบลแสนสุข อำเภอเมืองชลบุรี จังหวัดชลบุรี 20131</p>
+        </address>
+        <div>
+          <label for="message">Additional:</label><br />
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </section>
+    </main>
+  </body>
+</html>
+
+        <legend></legend>
   </body>
 </html>
